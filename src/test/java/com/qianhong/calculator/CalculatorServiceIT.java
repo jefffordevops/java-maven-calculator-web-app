@@ -20,7 +20,7 @@ public class CalculatorServiceIT {
         HttpGet httpGet = new HttpGet("http://localhost:9999/calculator/api/calculator/ping");
         HttpResponse response = httpclient.execute(httpGet);
         assertEquals(200, response.getStatusLine().getStatusCode());
-        assertThat(EntityUtils.toString(response.getEntity()), containsString("Welcome to Java Maven Calculator Web App!!!"));
+        assertThat(EntityUtils.toString(response.getEntity()), containsString("Welcome to Java Maven Calculator Web App, this is 2nd one!!!"));
     }
 
     @Test
