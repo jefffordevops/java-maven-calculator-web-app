@@ -10,7 +10,7 @@ public class CalculatorServiceTest {
 
     @Test
     public void testPing() {
-        assertThat(new CalculatorService().ping(), containsString("Welcome to Java Maven Calculator Web App!!!"));
+        assertThat(new CalculatorService().ping(), containsString("Welcome to Java Maven Calculator Web App, this is 2nd one!!!"));
     }
 
     @Test
