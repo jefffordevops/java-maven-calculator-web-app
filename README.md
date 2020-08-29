@@ -284,5 +284,5 @@ $ docker push <Your-ACR-Login-Server>/calculator
 5. Save the changes and you'll be able to access the web app in a few seconds.
 
 ## Reference
-- [Jenkins Pipeline](https://jenkins.io/doc/book/pipeline/)
+- [Jenkins Pipeline](https://jenkins.io/doc/book/pipeline/)  
 
