@@ -15,6 +15,7 @@ public class CalculatorService {
     @Produces(MediaType.TEXT_PLAIN)
     public String ping() {
         return "Welcome to Java Maven Calculator Web App!!!\n" + new Date().toString();
+        return "Hello Word!!!\n";
     }
 
     @GET
